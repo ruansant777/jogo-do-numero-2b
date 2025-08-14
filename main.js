@@ -1,11 +1,11 @@
-
-const palpites = document.querySelctor('.palpites');
+let numeroAleatorio = Math.florr(Math.random() *100) +1;
+const palpites = document.querySelector('.palpites');
 const ultimoResultado = document.querySelector('.ultimoResultado');
 const baixoOuAlto = document.querySelector('.baixoOuAlto');
 const envioPalpite = document.querySelector('.envioPalpite');
 const envioPalpite = document.querySelector('.campoPalpite');
-
-
+let contagemPalpites = 1;
+let botaoReiniciar;
 
 function verificarPalpite() {}
     const palpiteUsuario = Number(campoPalpite.value);
